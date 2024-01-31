@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./styles.css";
+import Background from "./Background";
 
 const links = [
   {
@@ -65,6 +66,7 @@ const links = [
 export default function App() {
   return (
     <>
+      <Background />
       <Navbar />
       <LinkContainer links={links} />
       <Footer />
